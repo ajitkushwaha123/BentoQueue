@@ -27,7 +27,7 @@ const Hero = () => {
       //   backgroundImage:
       //     'url("https://i.pinimg.com/736x/c4/b1/c3/c4b1c336d03c77a1d7b95fa96c9f6fbf.jpg")',
       // }}
-      className="h-auto"
+      className="h-auto min-h-[70vh]"
     >
       <div className="relative bg-gradient-to-b from-[#E9EFFD] to-white pt-[140px] overflow-hidden flex items-center justify-center px-4">
         <motion.div
@@ -73,25 +73,25 @@ const Hero = () => {
             variants={fadeIn(0)}
             className="bg-indigo-600 text-white rounded-full px-5 py-2 text-sm font-medium shadow hover:bg-indigo-700 transition"
           >
-            Trusted by 500+ Restaurants & Startups
+            Delivered Over 1000+ Products all over india
           </motion.button>
 
           <motion.h1
             initial="hidden"
             animate="visible"
             variants={fadeIn(0.2)}
-            className="mt-6 text-3xl sm:text-5xl md:text-7xl font-extrabold leading-tight text-gray-900"
+            className="mt-6 text-3xl sm:text-5xl md:text-6xl font-extrabold leading-tight text-gray-900"
           >
-            Simplify Your{" "}
+            More Than{" "}
             <span className="relative inline-block text-indigo-600">
-              Business Setup
+              a Lunch Box
               <img
                 src="https://reactheme.com/products/wordpress/fixora/wp-content/uploads/2025/02/line-04.svg"
                 alt="underline"
                 className="absolute w-full left-0 bottom-0 translate-y-[10px] pointer-events-none"
               />
-            </span>{" "}
-            in Minutes
+            </span>
+            — It's an Experience
           </motion.h1>
 
           <motion.p
@@ -110,7 +110,10 @@ const Hero = () => {
             variants={fadeIn(1)}
             className="flex flex-row justify-center items-center gap-4 mt-10"
           >
-            <Link to={'#video'} className="flex flex-nowrap items-center justify-center gap-2 bg-indigo-600 text-white px-2 py-3 rounded-md font-semibold shadow hover:bg-indigo-700 transition w-full sm:w-auto">
+            <Link
+              to={"#video"}
+              className="flex flex-nowrap items-center justify-center gap-2 bg-indigo-600 text-white px-2 py-3 rounded-md font-semibold shadow hover:bg-indigo-700 transition w-full sm:w-auto"
+            >
               <ArrowRightCircle className="w-5 h-5" />
               Get Started
             </Link>
@@ -134,12 +137,12 @@ const Hero = () => {
         </motion.div>
       </div>
 
-      <div className="md:flex justify-center px-[40px] md:px-[80px] items-center">
+      {/* <div className="md:flex justify-center px-[40px] md:px-[80px] items-center">
         <p className="font-semibold pt-10 px-5">
           More Than 100+ Restaurants Partner Features
         </p>
         <Review />
-      </div>
+      </div> */}
     </div>
   );
 };
