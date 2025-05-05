@@ -16,6 +16,7 @@ import LimitedTimeOffer from "../components/LimitedTimeOffer";
 import ComparisonSection from "../components/ComparisonTable";
 import Benefits from "../components/Benefits";
 import Product from "../components/Product";
+import SingleProduct from "../components/SingleProduct";
 
 const Home = () => {
   return (
@@ -23,6 +24,7 @@ const Home = () => {
       <Header />
       <Hero />
       {/* <StickyCTA /> */}
+      <SingleProduct />
       <Product />
       <Features />
       <BentoLunchBoxSection />
