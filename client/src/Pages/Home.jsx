@@ -22,7 +22,7 @@ const Home = () => {
     <div>
       <Header />
       <Hero />
-      <StickyCTA />
+      {/* <StickyCTA /> */}
       <Product />
       <Features />
       <BentoLunchBoxSection />

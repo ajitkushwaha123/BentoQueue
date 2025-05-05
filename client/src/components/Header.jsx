@@ -1,10 +1,11 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
-import { logo } from "../assets"; // Replace with your actual logo import
+import { logo } from "../assets"; 
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
 
   const navLinks = [
     { name: "Home", href: "/" },
@@ -15,15 +16,29 @@ const Header = () => {
     { name: "Contact", href: "#contact" },
   ];
 
+  // Detect scroll
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrolled(window.scrollY > 10);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
   return (
-    <header className="w-full fixed top-0 z-50 backdrop-blur bg-white/80 font-poppins shadow">
+    <header
+      className={`w-full fixed top-0 z-50 font-poppins transition-colors duration-300 ${
+        scrolled ? "bg-white shadow-md" : "bg-transparent backdrop-blur"
+      }`}
+    >
       <div className="max-w-full px-6 sm:px-12 mx-auto">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex items-center">
-            <div className="flex items-center">
-              <h2 className="text-2xl font-bold">BentoBox Co.</h2>
-            </div>
+            <h2 className="text-2xl flex justify-center items-center font-bold text-indigo-600">
+              BentoBox <span className="hidden md:block">Co.</span>
+            </h2>
           </div>
 
           {/* Desktop Nav */}
@@ -93,14 +108,10 @@ const Header = () => {
               animate={{ x: 0 }}
               exit={{ x: "-100%" }}
               transition={{ type: "tween", duration: 0.4 }}
-              className="fixed top-0 left-0 h-screen w-[68%] bg-white z-40 p-6 overflow-y-auto shadow-xl rounded-r-2xl"
+              className="fixed top-0 left-0 h-screen w-[80%] bg-white z-40 p-6 overflow-y-auto shadow-xl rounded-r-2xl"
             >
               <div className="flex items-center justify-between mb-8">
-                <div className="flex items-center">
-                  <p className="font-bold text-md text-indigo-600">
-                    Bento Queue
-                  </p>
-                </div>
+                <p className="font-bold text-md text-indigo-600">Bento Queue</p>
                 <button onClick={() => setMenuOpen(false)}>
                   <X size={24} />
                 </button>

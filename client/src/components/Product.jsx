@@ -134,12 +134,12 @@ const Product = () => {
     {
       id: "1",
       image:
-        "https://m.media-amazon.com/images/I/41Eb2Jd2bML._SX300_SY300_QL70_FMwebp_.jpg",
+        "https://images.meesho.com/images/products/470488823/tfrvc_512.webp",
       title: "Classic 3-Tier Bento Lunchbox",
       price: 699,
       rating: 5,
       description:
-        "Stylish and compact lunchbox with 3 stackable compartments — perfect for portion control and balanced meals.",
+        "Bear Family Stainless Steel Leakage Proof Lunch Box with Spoon Unbreakable Lid 3 Compartment kawaii lunchbox for School Kids and Adults Durable Perfect Size for Meal, BPA-Free 850 ML - Blue.",
     },
     {
       id: "2",
