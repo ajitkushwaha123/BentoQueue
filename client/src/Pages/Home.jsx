@@ -24,7 +24,7 @@ const Home = () => {
       <Header />
       <Hero />
       {/* <StickyCTA /> */}
-      <SingleProduct />
+      {/* <SingleProduct /> */}
       <Product />
       <Features />
       <BentoLunchBoxSection />
@@ -35,7 +35,7 @@ const Home = () => {
       {/* <Contact />
       <About /> */}
       <ComparisonSection />
-      <LimitedTimeOffer endDate="2025-05-05T00:00:00" />
+      {/* <LimitedTimeOffer endDate="2025-05-05T00:00:00" /> */}
       <Guarantee />
       <FAQs />
       <Footer />

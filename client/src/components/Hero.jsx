@@ -71,7 +71,7 @@ const Hero = () => {
             ease.
           </motion.p>
 
-          <motion.div
+          {/* <motion.div
             initial="hidden"
             animate="visible"
             variants={fadeIn(1)}
@@ -89,7 +89,7 @@ const Hero = () => {
               <Info className="w-5 h-5" />
               Our Services
             </button>
-          </motion.div>
+          </motion.div> */}
         </section>
 
         {/* Floating SVG - Right */}

@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 
 const ProductCard = ({ image, title, price, rating, description }) => {
   return (
-    <div className="rounded-lg border border-gray-200 bg-gray-50 p-6 shadow-md">
+    <div id="product" className="rounded-lg border border-gray-200 bg-gray-50 p-6 shadow-md">
       <div className="h-56 w-full">
         <a href="#">
           <img className="mx-auto h-full" src={image} alt={title} />
@@ -16,7 +16,7 @@ const ProductCard = ({ image, title, price, rating, description }) => {
             Up to 35% off
           </span>
           <div className="flex items-center justify-end gap-1">
-            <button
+            {/* <button
               type="button"
               className="rounded-lg p-2 text-gray-500 hover:bg-gray-200 hover:text-gray-900"
             >
@@ -41,8 +41,8 @@ const ProductCard = ({ image, title, price, rating, description }) => {
                   d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"
                 />
               </svg>
-            </button>
-            <button
+            </button> */}
+            {/* <button
               type="button"
               className="rounded-lg p-2 text-gray-500 hover:bg-gray-200 hover:text-gray-900"
             >
@@ -62,7 +62,7 @@ const ProductCard = ({ image, title, price, rating, description }) => {
                   d="M12 6C6.5 1 1 8 5.8 13l6.2 7 6.2-7C23 8 17.5 1 12 6Z"
                 />
               </svg>
-            </button>
+            </button> */}
           </div>
         </div>
         <div className="w-full text-start">
@@ -99,8 +99,9 @@ const ProductCard = ({ image, title, price, rating, description }) => {
           <p className="text-2xl font-extrabold leading-tight text-gray-900">
             ₹{price}
           </p>
-          <button
-            type="button"
+          <a
+            href="https://wa.me/918178739633?text=I%20want%20to%20buy%20this%20product"
+            type="a"
             className="inline-flex items-center rounded-lg bg-blue-600 px-5 py-2.5 text-sm font-medium text-white hover:bg-blue-700 focus:outline-none focus:ring-4 focus:ring-blue-300"
           >
             <svg
@@ -120,8 +121,8 @@ const ProductCard = ({ image, title, price, rating, description }) => {
                 d="M4 4h1.5L8 16m0 0h8m-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm.75-3H7.5M11 7H6.312M17 4v6m-3-3h6"
               />
             </svg>
-            Add to cart
-          </button>
+            Buy Now
+          </a>
         </div>
       </div>
     </div>

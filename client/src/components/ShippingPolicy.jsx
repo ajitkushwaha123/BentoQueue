@@ -1,42 +1,49 @@
-
 import React from "react";
 
 const data = [
   {
-    title: "Service Delivery Timeline",
+    title: "Order Processing & Delivery Timeline",
     content: `
-      1. <b>Swiggy & Zomato Onboarding:</b> Once all necessary documents are submitted, the onboarding process typically takes <b>5–10 business days</b>. You will receive confirmation once your restaurant profile is live on the platforms.<br>
-      2. <b>FSSAI Registration:</b> FSSAI license registration and approval timelines depend on the type of license (Basic, State, or Central) and the completeness of the submitted information. Generally, it takes <b>7–15 business days</b> to process. Updates will be shared via email or WhatsApp.<br>
-      3. <b>Cloud Kitchen Setup:</b> The timeline for cloud kitchen setup varies depending on the project scope. Our team will provide you with a detailed project plan and expected completion date during the consultation.
+      1. <b>Order Processing:</b> Orders are typically processed within <b>1–2 business days</b> after successful payment.<br>
+      2. <b>Shipping Time:</b> Once dispatched, delivery usually takes <b>3–7 business days</b>, depending on your location.<br>
+      3. <b>Tracking:</b> You will receive a tracking link via email or WhatsApp as soon as your package is shipped.
     `,
   },
   {
-    title: "Delivery of Documents and Communication",
+    title: "Shipping & Packaging",
     content: `
-      - <b>Digital Delivery:</b> All necessary licenses, documents, and updates will be shared with you electronically via email or WhatsApp for quick and seamless communication.<br>
-      - <b>Physical Copies:</b> If physical copies of licenses are required, they can be arranged on request and may involve additional charges for courier services.
+      - <b>Secure Packaging:</b> All BentoBox products are carefully packed to avoid damage during transit.<br>
+      - <b>Shipping Partners:</b> We work with trusted courier services to ensure timely and reliable delivery across India.
+    `,
+  },
+  {
+    title: "Delivery Attempts",
+    content: `
+      - If you're unavailable at the time of delivery, the courier will attempt to deliver up to <b>2 more times</b>.<br>
+      - If the package remains undelivered, it will be returned to us. Additional charges may apply for re-shipping.
     `,
   },
   {
     title: "Customer Responsibilities",
     content: `
-      - <b>Provide accurate and complete information,</b> including all required documents, to avoid delays in service delivery.<br>
-      - <b>Respond promptly</b> to any queries or requests for additional information from our team to ensure smooth processing.
+      - <b>Provide accurate shipping details</b> at checkout to avoid delays or delivery failures.<br>
+      - <b>Ensure someone is available</b> to receive the package at the provided address during delivery hours.
     `,
   },
   {
-    title: "Refund and Cancellation Policy",
+    title: "Returns and Cancellations",
     content: `
-      As we deal with consultancy services, <b>refunds or cancellations</b> are not applicable once the process has begun. However, if there are issues or delays from our end, we will make every effort to resolve them quickly.
+      - You may cancel an order <b>before it is dispatched</b> by contacting us via phone or email.<br>
+      - Once dispatched, cancellations are not possible. Please refer to our <a href="/return-policy" class="text-blue-600 underline">Return Policy</a> for details on eligible returns.
     `,
   },
   {
     title: "Contact Us",
     content: `
-      If you have any questions or concerns regarding service delivery, please reach out to us:<br>
-      - <b>Email:</b> support@magicscale.in<br>
-      - <b>Phone:</b> +91 8826073117<br>
-      - <b>Address:</b> H.No 72, Navyug Public School, Rajokari, New Delhi - 110038
+      If you have any questions or concerns regarding your order or delivery, reach out to us:<br>
+      - <b>Email:</b> ajitkushwahacse@gmail.com<br>
+      - <b>Phone:</b> +91 8178739633<br>
+      - <b>Address:</b> Near Mohalla Clinic, Rajokari, New Delhi - 110001
     `,
   },
 ];
@@ -45,7 +52,7 @@ const ShippingPolicy = () => {
   return (
     <div className="w-full">
       <div className="bg-indigo-500 text-white p-0.5 sm:text-[17px] md:text-[1.8rem] text-center w-full">
-        <p className="font-bold">Shipping and Delivery</p>
+        <p className="font-bold">Shipping and Delivery Policy</p>
       </div>
 
       <div className="w-full p-[20px] md:px-[120px] md:py-[50px]">
@@ -54,7 +61,10 @@ const ShippingPolicy = () => {
             <h2 className="text-[30px] pb-2 font-extrabold text-[#333]">
               {item.title}
             </h2>
-            <p dangerouslySetInnerHTML={{ __html: item.content }} />
+            <p
+              className="text-[17px] leading-7"
+              dangerouslySetInnerHTML={{ __html: item.content }}
+            />
           </div>
         ))}
       </div>

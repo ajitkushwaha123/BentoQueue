@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
-import { logo } from "../assets"; 
+import { logo } from "../assets";
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -11,9 +11,9 @@ const Header = () => {
     { name: "Home", href: "/" },
     { name: "Features", href: "#features" },
     { name: "How It Works", href: "#how-it-works" },
-    { name: "Pricing", href: "#pricing" },
+    { name: "Benefits", href: "#benefit" },
     { name: "FAQ", href: "#faq" },
-    { name: "Contact", href: "#contact" },
+    { name: "Testimonial", href: "#testimonial" },
   ];
 
   // Detect scroll
@@ -37,7 +37,7 @@ const Header = () => {
           {/* Logo */}
           <div className="flex items-center">
             <h2 className="text-2xl flex justify-center items-center font-bold text-indigo-600">
-              BentoBox <span className="hidden md:block">Co.</span>
+              BentoBox <span className="hidden md:block"></span>
             </h2>
           </div>
 
@@ -63,7 +63,7 @@ const Header = () => {
             whileTap={{ scale: 0.95 }}
           >
             <a
-              href="#video"
+              href="#product"
               className="bg-indigo-600 text-white text-sm font-medium px-5 py-2 rounded-full shadow hover:bg-indigo-700 transition"
             >
               Get Started

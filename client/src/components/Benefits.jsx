@@ -50,7 +50,7 @@ const benefits = [
 export default function Benefits() {
   return (
     <section className="py-24 bg-white">
-      <div className="max-w-6xl mx-auto px-4 text-center">
+      <div id="benefit" className="max-w-6xl mx-auto px-4 text-center">
         <motion.h2
           initial={{ opacity: 0, y: -20 }}
           whileInView={{ opacity: 1, y: 0 }}

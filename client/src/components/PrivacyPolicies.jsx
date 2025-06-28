@@ -4,58 +4,58 @@ const privacyPolicy = [
   {
     title: "Introduction",
     content: `
-      Welcome to <b>MagicScale!</b> Your privacy is important to us. This Privacy Policy outlines how we collect, use, and protect your information when you access our website or use our services.
+      Welcome to <b>BentoBox!</b> Your privacy is important to us. This Privacy Policy explains how we collect, use, and protect your information when you visit our website or interact with our services.
     `,
   },
   {
     title: "Information We Collect",
     content: `
-      We collect information that you provide to us directly, such as your <b>name, email address, phone number,</b> and any documents necessary for onboarding or FSSAI licensing. We may also collect data automatically, such as your <b>IP address, browser type,</b> and usage data when you visit our website.
+      We collect information you provide directly, such as your <b>name, email address, phone number,</b> and delivery details when placing an order. We may also automatically collect technical data like your <b>IP address, browser type,</b> and site usage information.
     `,
   },
   {
     title: "How We Use Your Information",
     content: `
-      The information we collect is used to <b>provide and improve our services,</b> process your requests, communicate with you, and ensure compliance with legal obligations. We may also use your data to send you updates or promotional offers.
+      We use your information to <b>process your orders, improve our website,</b> provide customer support, and keep you informed about offers, new products, or important updates.
     `,
   },
   {
     title: "Sharing Your Information",
     content: `
-      We do not <b>sell or rent</b> your personal information to third parties. However, we may share your data with <b>trusted partners,</b> such as Swiggy, Zomato, or FSSAI authorities, to facilitate the services you’ve requested.
+      We do not <b>sell or rent</b> your personal information. We may share your data with <b>reliable partners</b> like delivery services and payment processors to fulfill your order efficiently.
     `,
   },
   {
     title: "Data Security",
     content: `
-      We implement <b>strict security measures</b> to protect your information from unauthorized access, alteration, or destruction. Despite our efforts, no system can be 100% secure, and we encourage you to take precautions when sharing sensitive information online.
+      We take <b>strong measures</b> to protect your data against unauthorized access, misuse, or loss. While we strive for the highest standards, no system can guarantee complete security.
     `,
   },
   {
     title: "Cookies and Tracking",
     content: `
-      Our website uses <b>cookies</b> to improve user experience and analyze site performance. You can manage or disable cookies through your browser settings, but some features of our website may not function properly without cookies.
+      Our website uses <b>cookies</b> to enhance your shopping experience and analyze performance. You can manage or disable cookies in your browser settings, but some features may be affected.
     `,
   },
   {
     title: "Your Rights",
     content: `
-      You have the right to <b>access, update, or delete</b> your personal information. To exercise these rights, please contact us at <b>support@magicscale.in</b>.
+      You have the right to <b>access, modify, or delete</b> your personal data. To request any changes, please reach out to us at <b>ajitkushwahacse@gmail.com</b>.
     `,
   },
   {
     title: "Changes to this Privacy Policy",
     content: `
-      We may update this Privacy Policy from time to time. Any changes will be posted on this page with the updated revision date. We encourage you to <b>review this policy periodically.</b>
+      We may occasionally update this Privacy Policy. Changes will be posted here with the latest revision date. We recommend reviewing it regularly to stay informed.
     `,
   },
   {
     title: "Contact Us",
     content: `
-      If you have any questions or concerns about this Privacy Policy, please contact us at:<br>
-      <b>Email:</b> support@magicscale.in<br>
-      <b>Phone:</b> +91 8826073117<br>
-      <b>Address:</b> H.No 72, Navyug Public School, Rajokari, New Delhi - 110038
+      For any questions or concerns regarding this policy, contact us at:<br>
+      <b>Email:</b> ajitkushwahacse@gmail.com<br>
+      <b>Phone:</b> +91 8178739633<br>
+      <b>Address:</b> Near mohalla clinic , rajokari, New Delhi - 110001
     `,
   },
 ];
@@ -77,7 +77,6 @@ const PrivacyPolicies = () => {
           </div>
         ))}
       </div>
-
     </div>
   );
 };

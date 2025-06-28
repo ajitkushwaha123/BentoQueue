@@ -22,7 +22,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-10">
           {/* Brand & Tagline */}
           <div className="text-start">
-            <h2 className="text-2xl font-bold mb-3">BentoBox Co.</h2>
+            <h2 className="text-2xl font-bold mb-3">BentoBox</h2>
             <p className="text-gray-400">
               Smart, stylish, and sustainable lunch solutions. Eat better, feel
               better.
@@ -53,13 +53,19 @@ const Footer = () => {
               </li>
               <li className="flex items-center gap-2">
                 <Phone size={18} />
-                <a href="/contact" className="hover:text-white transition">
-                  Contact
+                <a
+                  href="/privacy-policy"
+                  className="hover:text-white transition"
+                >
+                  Privacy Policy
                 </a>
               </li>
               <li className="flex items-center gap-2">
                 <FileText size={18} />
-                <a href="/terms" className="hover:text-white transition">
+                <a
+                  href="/terms-and-condition"
+                  className="hover:text-white transition"
+                >
                   Terms of Service
                 </a>
               </li>
@@ -72,8 +78,8 @@ const Footer = () => {
             <ul className="space-y-3 text-gray-400">
               <li className="flex items-center gap-2">
                 <Info size={18} />
-                <a href="#about" className="hover:text-white transition">
-                  About
+                <a href="#" className="hover:text-white transition">
+                  Home
                 </a>
               </li>
               <li className="flex items-center gap-2">
@@ -84,13 +90,13 @@ const Footer = () => {
               </li>
               <li className="flex items-center gap-2">
                 <DollarSign size={18} />
-                <a href="#pricing" className="hover:text-white transition">
-                  Pricing
+                <a href="#benefit" className="hover:text-white transition">
+                  Benefits
                 </a>
               </li>
               <li className="flex items-center gap-2">
                 <HelpCircle size={18} />
-                <a href="#faqs" className="hover:text-white transition">
+                <a href="#faq" className="hover:text-white transition">
                   FAQs
                 </a>
               </li>
@@ -101,36 +107,36 @@ const Footer = () => {
           <div className="text-start">
             <h3 className="text-xl font-semibold mb-4">Follow Us</h3>
             <div className="flex space-x-4 text-gray-400">
-              <a
+              {/* <a
                 href="https://facebook.com"
                 aria-label="Facebook"
                 className="hover:text-white transition"
               >
                 <Facebook size={22} />
-              </a>
-              <a
+              </a> */}
+              {/* <a
                 href="https://twitter.com"
                 aria-label="Twitter"
                 className="hover:text-white transition"
               >
                 <Twitter size={22} />
-              </a>
+              </a> */}
               <a
-                href="https://instagram.com"
+                href="https://www.instagram.com/bentoqueue"
                 aria-label="Instagram"
                 className="hover:text-white transition"
               >
                 <Instagram size={22} />
               </a>
-              <a
+              {/* <a
                 href="https://linkedin.com"
                 aria-label="LinkedIn"
                 className="hover:text-white transition"
               >
                 <Linkedin size={22} />
-              </a>
+              </a> */}
               <a
-                href="mailto:support@bentobox.com"
+                href="mailto:ajitkushwahacse@gmail.com"
                 aria-label="Email"
                 className="hover:text-white transition"
               >
@@ -138,9 +144,7 @@ const Footer = () => {
               </a>
             </div>
 
-            <div>
-              {/* <ScrollToTopButton /> */}
-            </div>
+            <div>{/* <ScrollToTopButton /> */}</div>
           </div>
         </div>
 
@@ -149,11 +153,14 @@ const Footer = () => {
             &copy; {new Date().getFullYear()} BentoBox Co. All rights reserved.
           </p>
           <p className="mt-2 md:mt-0">
-            <a href="/privacy" className="hover:text-white transition">
+            <a href="/privacy-policy" className="hover:text-white transition">
               Privacy Policy
             </a>
             &nbsp;|&nbsp;
-            <a href="/terms" className="hover:text-white transition">
+            <a
+              href="/terms-and-condition"
+              className="hover:text-white transition"
+            >
               Terms & Conditions
             </a>
           </p>

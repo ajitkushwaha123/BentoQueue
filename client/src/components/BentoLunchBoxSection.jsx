@@ -5,7 +5,7 @@ import { CheckCircle, XCircle } from "lucide-react";
 
 const BentoLunchBoxSection = () => {
   return (
-    <section className="bg-gray-50 py-20 px-6">
+    <section id="how-it-works" className="bg-gray-50 py-20 px-6">
       <div className="max-w-6xl mx-auto text-center">
         <motion.h2
           className="text-4xl sm:text-5xl font-extrabold text-gray-900 mb-12 text-center"
