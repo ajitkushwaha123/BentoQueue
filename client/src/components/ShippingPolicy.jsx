@@ -12,7 +12,7 @@ const data = [
   {
     title: "Shipping & Packaging",
     content: `
-      - <b>Secure Packaging:</b> All BentoBox products are carefully packed to avoid damage during transit.<br>
+      - <b>Secure Packaging:</b> All BentoQueue products are carefully packed to avoid damage during transit.<br>
       - <b>Shipping Partners:</b> We work with trusted courier services to ensure timely and reliable delivery across India.
     `,
   },

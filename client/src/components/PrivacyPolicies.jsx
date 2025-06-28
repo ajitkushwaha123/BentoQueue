@@ -4,7 +4,7 @@ const privacyPolicy = [
   {
     title: "Introduction",
     content: `
-      Welcome to <b>BentoBox!</b> Your privacy is important to us. This Privacy Policy explains how we collect, use, and protect your information when you visit our website or interact with our services.
+      Welcome to <b>BentoQueue!</b> Your privacy is important to us. This Privacy Policy explains how we collect, use, and protect your information when you visit our website or interact with our services.
     `,
   },
   {

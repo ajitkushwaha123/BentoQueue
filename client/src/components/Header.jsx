@@ -37,7 +37,7 @@ const Header = () => {
           {/* Logo */}
           <div className="flex items-center">
             <h2 className="text-2xl flex justify-center items-center font-bold text-indigo-600">
-              BentoBox <span className="hidden md:block"></span>
+              BentoQueue <span className="hidden md:block"></span>
             </h2>
           </div>
 

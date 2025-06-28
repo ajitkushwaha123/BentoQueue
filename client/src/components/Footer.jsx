@@ -22,7 +22,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-10">
           {/* Brand & Tagline */}
           <div className="text-start">
-            <h2 className="text-2xl font-bold mb-3">BentoBox</h2>
+            <h2 className="text-2xl font-bold mb-3">BentoQueue</h2>
             <p className="text-gray-400">
               Smart, stylish, and sustainable lunch solutions. Eat better, feel
               better.
@@ -150,7 +150,7 @@ const Footer = () => {
 
         <div className="border-t border-gray-700 pt-6 text-sm text-gray-500 flex flex-col md:flex-row justify-between items-center">
           <p>
-            &copy; {new Date().getFullYear()} BentoBox Co. All rights reserved.
+            &copy; {new Date().getFullYear()} BentoQueue All rights reserved.
           </p>
           <p className="mt-2 md:mt-0">
             <a href="/privacy-policy" className="hover:text-white transition">

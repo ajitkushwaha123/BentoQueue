@@ -10,49 +10,49 @@ const terms = [
   {
     title: "Use License",
     content: `
-      Permission is granted to temporarily download one copy of the materials on <b>BentoBox’s Website</b> for personal, non-commercial transitory viewing only. This is the grant of a license, not a transfer of title, and under this license, you may not:<br>
+      Permission is granted to temporarily download one copy of the materials on <b>BentoQueue’s Website</b> for personal, non-commercial transitory viewing only. This is the grant of a license, not a transfer of title, and under this license, you may not:<br>
       - <b>Modify</b> or <b>copy</b> the materials;<br>
       - Use the materials for any <b>commercial purpose</b> or public display;<br>
-      - Attempt to <b>reverse-engineer</b> any software contained on BentoBox’s Website;<br>
+      - Attempt to <b>reverse-engineer</b> any software contained on BentoQueue’s Website;<br>
       - Remove any <b>copyright</b> or proprietary notations from the materials; or<br>
       - Transfer the materials to another person or “mirror” the materials on any other server.<br><br>
-      Violation of these restrictions may result in termination of your access rights by BentoBox. Upon termination, any downloaded materials in your possession, whether in printed or electronic format, must be destroyed.
+      Violation of these restrictions may result in termination of your access rights by BentoQueue. Upon termination, any downloaded materials in your possession, whether in printed or electronic format, must be destroyed.
     `,
   },
   {
     title: "Disclaimer",
     content: `
-      All materials on <b>BentoBox’s Website</b> are provided <b>'as is.'</b> BentoBox makes no warranties, either express or implied, and hereby disclaims and negates all other warranties. Furthermore, BentoBox does not make any representations concerning the <b>accuracy</b> or <b>reliability</b> of the use of materials on its Website or otherwise relating to any linked sites.
+      All materials on <b>BentoQueue’s Website</b> are provided <b>'as is.'</b> BentoQueue makes no warranties, either express or implied, and hereby disclaims and negates all other warranties. Furthermore, BentoQueue does not make any representations concerning the <b>accuracy</b> or <b>reliability</b> of the use of materials on its Website or otherwise relating to any linked sites.
     `,
   },
   {
     title: "Limitations",
     content: `
-      BentoBox or its suppliers will not be held liable for any <b>damages</b> arising from the use or inability to use materials on BentoBox’s Website, even if BentoBox or an authorized representative has been notified of the possibility of such damage. Jurisdictions that do not allow limitations on implied warranties or liability for incidental damages may not apply to you.
+      BentoQueue or its suppliers will not be held liable for any <b>damages</b> arising from the use or inability to use materials on BentoQueue’s Website, even if BentoQueue or an authorized representative has been notified of the possibility of such damage. Jurisdictions that do not allow limitations on implied warranties or liability for incidental damages may not apply to you.
     `,
   },
   {
     title: "Revisions and Errata",
     content: `
-      The materials appearing on <b>BentoBox’s Website</b> may include technical, typographical, or photographic errors. BentoBox does not warrant that any materials on its Website are <b>accurate, complete,</b> or <b>current</b>. BentoBox may make changes to the materials on its Website at any time without notice but does not commit to updating them.
+      The materials appearing on <b>BentoQueue’s Website</b> may include technical, typographical, or photographic errors. BentoQueue does not warrant that any materials on its Website are <b>accurate, complete,</b> or <b>current</b>. BentoQueue may make changes to the materials on its Website at any time without notice but does not commit to updating them.
     `,
   },
   {
     title: "Links",
     content: `
-      BentoBox has not reviewed all sites linked to its Website and is not responsible for the contents of any linked site. The inclusion of any link does not imply <b>endorsement</b> by BentoBox. Use of any linked website is at the user's own risk.
+      BentoQueue has not reviewed all sites linked to its Website and is not responsible for the contents of any linked site. The inclusion of any link does not imply <b>endorsement</b> by BentoQueue. Use of any linked website is at the user's own risk.
     `,
   },
   {
     title: "Site Terms of Use",
     content: `
-      <b>Modifications:</b> BentoBox may revise these Terms of Use for its Website at any time without prior notice. By using this Website, you agree to be bound by the current version of these Terms and Conditions of Use.
+      <b>Modifications:</b> BentoQueue may revise these Terms of Use for its Website at any time without prior notice. By using this Website, you agree to be bound by the current version of these Terms and Conditions of Use.
     `,
   },
   {
     title: "Governing Law",
     content: `
-      Any claim related to <b>BentoBox’s Website</b> shall be governed by the laws of <b>India</b> without regard to its conflict of law provisions.
+      Any claim related to <b>BentoQueue’s Website</b> shall be governed by the laws of <b>India</b> without regard to its conflict of law provisions.
     `,
   },
   {
@@ -64,7 +64,7 @@ const terms = [
   {
     title: "Changes to Terms",
     content: `
-      BentoBox reserves the right to <b>update or amend</b> these Terms of Service at any time. Users are encouraged to review this page regularly.
+      BentoQueue reserves the right to <b>update or amend</b> these Terms of Service at any time. Users are encouraged to review this page regularly.
     `,
   },
   {
